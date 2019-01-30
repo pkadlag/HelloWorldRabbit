@@ -1,0 +1,9 @@
+package com.cg.app.RabbitPro.entity;
+
+@Entity
+public class Customer {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private String message;
+
+}

@@ -1,0 +1,6 @@
+package com.cg.app.RabbitPro.service;
+
+@Service
+public interface CustomerService {
+
+}

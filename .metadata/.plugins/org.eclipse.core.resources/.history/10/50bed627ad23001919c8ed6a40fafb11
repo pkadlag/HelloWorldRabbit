@@ -1,0 +1,5 @@
+package com.cg.app.RabbitReceiver.messaging;
+
+public class Receiver {
+
+}

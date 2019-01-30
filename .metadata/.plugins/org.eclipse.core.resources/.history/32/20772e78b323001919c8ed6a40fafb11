@@ -1,0 +1,20 @@
+package com.cg.app.RabbitPro.resource;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CustomerController {
+
+private CustomerService customerService;
+	
+	@Autowired
+	public CustomerController(CustomerService customerService){
+		this.customerService = customerService;
+	}
+	
+	@RequestMapping( path="/register", method = RequestMethod.POST)
+	public Customer register(@RequestBody Customer customer){
+		return customerService.register(customer);
+	}
+	
+}

@@ -1,0 +1,5 @@
+package com.cg.app.RabbitPro.entity;
+
+public class Customer {
+
+}
